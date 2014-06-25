@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment|Open+Sans|Oswald);
+
+p {
+	font-family: Open Sans;
+}
+
+a:hover {
+	color: red;	
+}
+
+
+#subculture {
+	font-size: 10px;
+}
+
+.author {
+	font-family: Condiment;
+	font-style: italic ;
+}
+
+h1 {
+	font-family: Oswald;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Oswald;
+}

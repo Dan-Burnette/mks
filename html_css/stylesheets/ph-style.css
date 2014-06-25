@@ -1,0 +1,120 @@
+p {
+	margin-bottom: -16px;
+	text-indent: 5px;
+}
+
+
+
+span {
+	font-size: 30px;
+}
+
+#pHbox {
+	background-color: #E0E0E0;
+	text-align: left;
+	position: relative;
+	top: -15px;
+	height: 70px;
+}
+
+#pHtitle {
+	text-indent: 5px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-size: 25px;
+	color: #595959;
+	position: relative;
+	top: 20px;
+
+}
+
+#wrapper {
+	background-color: #C9C9C9;
+	padding-top: 25px;
+	padding-bottom: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 20px;
+	border: solid 1px;
+	border-color: #C9C9C9;
+
+
+
+}
+
+#container{
+	position: relative;
+	top: -10px;
+	color: white;
+	font-family: Arial;
+
+}
+
+.fourteen {
+	background-color: #0066cc;
+	
+}
+
+.thirteen {
+	background-color: #1377d1
+	
+}
+
+.twelve {
+	background-color: #1c7fd4;
+	
+}
+
+.eleven {
+	background-color: #2f90d8;
+	
+}
+
+.ten {
+	background-color: #3998db;
+	
+}
+
+.nine {
+	background-color: #42a0de;
+	
+}
+
+.eight {
+	background-color: #4ca9e0;
+	
+}
+
+.seven{
+	background-color: #00E4A2;
+}
+
+
+.six {
+	background-color: #ffa6e6;
+}
+
+.five {
+	background-color: #ff99dd;
+}
+
+.four {
+	background-color: #ff8cd4;
+}
+
+.three {
+	background-color: #ff80cc;
+}
+
+.two {
+	background-color: #ff73c4;
+}
+
+.one {
+	background-color: #ff66bb;
+}
+
+.zero {
+	background-color: #ff69b3;
+}

@@ -1,0 +1,23 @@
+#Even Fibonacci Numbers
+
+fibonacciNumbers = [1,2]
+oneThousand = (1..1000).to_a
+
+oneThousand.each do |x, y|
+   x = fibonacciNumbers[-1]
+   y = fibonacciNumbers[-2]
+   if (x+y < 4000000)
+       fibonacciNumbers.push(x+y)
+   end
+end
+
+evenSum = 0
+fibonacciNumbers.each do |x|
+    if (x%2 ==0)
+       evenSum = evenSum + x
+    end
+end
+
+puts evenSum
+
+

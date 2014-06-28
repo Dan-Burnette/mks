@@ -1,0 +1,14 @@
+#Sum Square Difference
+
+numArray = (1..100).to_a
+
+sumOfSquares = 0
+sum = 0
+numArray.each do |x|
+    square = x**2
+    sumOfSquares = sumOfSquares + square
+    sum = sum + x
+end
+
+squareOfSum = sum**2
+puts squareOfSum - sumOfSquares

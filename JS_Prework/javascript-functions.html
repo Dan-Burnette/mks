@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>Javascript Bare</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  alert('hi');
+
+  //Exercise 2
+  var number = prompt("Enter a number");
+  if (number % 7 === 0){
+  	alert("lucky!");
+  }
+  else if (number % 2 === 0){
+  	alert("even steven");
+  }
+
+  //Exercise 2.1
+ var slap = function() {
+  	alert('SLAP');
+ };
+slap();
+
+//Exercise 2.2
+var kick = function (name) {
+  alert(name + ' reproaches your behavior.');
+};
+kick('Billy');
+
+//Exercise 2.3
+var doubleIt = function (x) {
+  alert(x + ' times two is ' + x*2);
+};
+doubleIt(8);
+
+//Exercise 2.4
+var greet = function (name) {
+  alert("Welcome, " + name);
+};
+greet('Bob');
+
+//Exercise 3.1
+var yell = function(string) {
+	alert(string.toUpperCase());
+};
+yell("Dingus!");
+
+//Exercise 3.2
+var divideBy = function(x,y) {
+return x/y ;
+};
+
+//Exercise 3.3
+var welcome = function(name1, name2) {
+	if (name2 === undefined) {
+		return "Welcome " + name1 + "!";
+	}
+	else {
+		return "Welcome " + name1 + " and " + name2 + "!";
+	}
+
+};
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+
+<head>
+  <title>Javascript Functions</title>
+  <style type="text/css">
+    .spacer {
+      height: 2500px;
+    }
+    #box {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <label> Clicks:0 </label>
+  <div class="spacer">
+    Scroll down (all the way down)
+  </div>
+
+  <p>
+    You see a box.
+    <a id="open-link" href="#">Open the box</a>
+  </p>
+
+  <p id="box">Surprise!
+    <button type="button">Close Box</button>
+  </p>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    var clickCount = 0;
+
+    //Show box
+    $('#open-link').on('click', function (e) {
+      //alert("lol it's locked.");
+      $("#box").show();
+      e.preventDefault();
+    });
+
+    //Hide box
+    $("button").on('click', function(e) {
+      $("#box").hide();
+    });
+
+    //Upon any click, trigger the new-click-count event, passing along the current clickCount
+    $(document).on('click', function(e) {
+      $(document).trigger('new-click-count', clickCount )
+    });
+
+    //update the clickCount and the label to reflect this. Alert if divisible by 5
+    $(document).on('new-click-count', function(e) {
+      clickCount++;
+      $("label").text("Clicks:" + clickCount);
+      if (clickCount % 5 == 0) {
+        alert("New High Score: " + clickCount + "!");
+      }
+    });
+
+  </script>
+
+</body>
+</html>

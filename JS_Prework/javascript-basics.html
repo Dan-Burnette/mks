@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>Javascript Bare</title>
+</head>
+<body>
+
+<script type="text/javascript">
+  //JavaScript Basics
+  //Exercise 3.1
+  var firstName = prompt("Enter your first name");
+  var lastName = prompt("Enter your last name");
+  alert("Greetings " + firstName + " " + lastName);
+
+  //Exercise 3.2
+  var myString = prompt("Enter a string please");
+  alert(myString.toUpperCase());
+
+  //Exercise 3.3
+  var firstName = prompt("Enter your first name");
+  var lastName = prompt("Enter your last name");
+  alert("Greetings " + firstName + " " + lastName.toUpperCase());
+
+
+  //Exercise 4
+  var age = prompt("How old are you?");
+  if (age >= 21 && age <= 100){
+  	alert("Welcome");
+  }
+  else if (age < 0 || age > 100){
+  	alert("Don't mess with me buddy!");
+  }
+  else {
+  	alert("You can't come in. No youngins allowed.")
+  }
+
+  //Extension
+  var res1 = "Florida Resort";
+  var res2 = "Hawaii Resort";
+  var res3 = "Paris Resort";
+  var claimed = [];
+  while (true) {
+  	var name = prompt("Enter your desired reservation location");
+
+  	if (name === 'exit'){
+  		break;
+  	}
+
+  	else if (name === res1){
+  		var claimed = false ;
+  		for (x in claimed) {
+  			if (claimed[x] === name){
+  				alert("That reservation has already been taken");
+  				claimed=true;
+  			}
+  		}
+  		if (claimed === false){
+  			alert("It is available, you've made a reservation!")
+  			claimed.push(name);
+  		}
+  	}
+  	else if (name === res2){
+  		var claimed = false ;
+  		for (x in claimed) {
+  			if (claimed[x] === name){
+  				alert("That reservation has already been taken");
+  				claimed=true;
+  			}
+  		}
+  		if (claimed === false){
+  			alert("It is available, you've made a reservation!")
+  			claimed.push(name);
+  		}
+  	}
+
+  	
+  	else if (name === res3){
+  		var claimed = false ;
+  		for (x in claimed) {
+  			if (claimed[x] === name){
+  				alert("That reservation has already been taken");
+  				claimed=true;
+  			}
+  		}
+  		if (claimed === false){
+  			alert("It is available, you've made a reservation!!")
+  			claimed.push(name);
+  		}
+  	}
+
+  }
+  
+
+
+
+
+</script>
+
+</body>
+</html>

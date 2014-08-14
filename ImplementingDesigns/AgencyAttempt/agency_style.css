@@ -1,0 +1,91 @@
+
+
+.header, .OurWork, .tableContainer, .content-wrapper, .logo  {
+	box-sizing: border-box;
+	
+}
+
+.content-wrapper {
+	background-image: url("agency/background.jpg");	
+	height: 1056px;
+	width: 1903px;
+}
+
+.header {
+	background-color: white;
+	height: 5%;
+	width: 100%;
+	float: left;	
+}
+
+.logo {
+	position: relative;
+	margin-left: 15%;
+}
+
+.navbar > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	margin-left: 60%;
+	margin-bottom: -10px;
+}
+
+.navbar > ul > li {
+	float: left;
+	position: relative;
+	padding-right: 30px;
+	top: -25px;
+	
+}
+
+.navbar > ul > li:hover{
+	background-color: black;
+	color: white;
+
+}
+
+.OurWork {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 4%;
+}
+
+
+.tableContainer{
+	width: 70%;
+	height: 50%;
+	float: left;
+	position: relative;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	
+
+}
+
+.tableimg {
+	height: 50%;
+	width: 95%;
+	padding: 10px 10px 10px 10px;
+}
+
+.projTitle {
+	text-align: center;
+	background-color: white;
+	color: grey;
+	font-size: 17px;
+	width: 90%;
+	padding: 10px 11px 10px 10px ;
+	margin-left: 10px;
+	margin-top: -14px;
+	margin-bottom: 10px;
+
+
+
+}
+
+
